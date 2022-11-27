@@ -17,14 +17,15 @@
 .left-section {
     grid-column: span 2;
     height: 100%;
-    background-color: #999999;
+    background-image: url(/images/wave-haikei-left.svg);
 }
 
 .right-section {
     grid-column: span 5;
     height: 100%;
-    background-color: #424a50;
     border-radius: 0px 60px 0px 0px;
+    background-image: url(/images/wave-haikei-right.svg);
+    background-size: cover;
 }
 
 .left-section-contents{
@@ -42,7 +43,7 @@
 }
 
 .name {
-    color: #D6DBDF;
+    color: #f95959;
     font-size: 30px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -50,14 +51,14 @@
 
 .profession {
     color: #eeeeee;
-    font-size: 20px;
+    font-size: 15px;
     text-transform: uppercase;
     text-align: center;
 }
 
 /* .contact-info { border-bottom: 2px solid #1B2631; } */
 .left-title {
-    color: #eeeeee;
+    color: #f95959;
     font-size: 20px;
 }
 
@@ -91,7 +92,7 @@
 }
 
 .right-title {
-    color: #eeeeee;
+    color: #f95959;
 }
 
 .gap {
@@ -116,6 +117,7 @@
 .awards-company-name {
     font-size: 25px;
     font-weight: bold;
+    color: #f95959;
 }
 
 .exp-time-period,
@@ -128,6 +130,7 @@
 .education-subject,
 .awards-name {
     font-size: 25px;
+    color: #f95959;
 }
 
 .exp-desc,
@@ -135,4 +138,8 @@
 .awards-desc {
     font-size: 16px;
     padding-left: 5px;
+}
+
+body {
+    background-color: #142d4c;
 }
