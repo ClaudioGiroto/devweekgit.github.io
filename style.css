@@ -17,14 +17,14 @@
 .left-section {
     grid-column: span 2;
     height: 100%;
-    background-image: url(wave-haikei-left.svg);
+    background-image: url(\wave-haikei-left.svg);
 }
 
 .right-section {
     grid-column: span 5;
     height: 100%;
     border-radius: 0px 60px 0px 0px;
-    background-image: url(wave-haikei-right.svg);
+    background-image: url(\wave-haikei-right.svg);
     background-size: cover;
 }
 
